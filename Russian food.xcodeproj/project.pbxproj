@@ -16,6 +16,10 @@
 		D27766AB269B43E200DF6E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27766A9269B43E200DF6E0D /* LaunchScreen.storyboard */; };
 		D2C02F60269B8E8C00C35317 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F5F269B8E8C00C35317 /* MainViewController.swift */; };
 		D2C02F6C269C3C6800C35317 /* TaBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */; };
+		D2C02F6F269C49AB00C35317 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F6E269C49AB00C35317 /* CategoryViewController.swift */; };
+		D2C02F7C269C66C500C35317 /* CLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F7B269C66C500C35317 /* CLCollectionViewCell.swift */; };
+		D2C02F7F269C681A00C35317 /* CatrgoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F7E269C681A00C35317 /* CatrgoryList.swift */; };
+		D2C02F82269C759E00C35317 /* CategoryArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F81269C759E00C35317 /* CategoryArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		D27766AC269B43E200DF6E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C02F5F269B8E8C00C35317 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaBarViewController.swift; sourceTree = "<group>"; };
+		D2C02F6E269C49AB00C35317 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		D2C02F7B269C66C500C35317 /* CLCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2C02F7E269C681A00C35317 /* CatrgoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatrgoryList.swift; sourceTree = "<group>"; };
+		D2C02F81269C759E00C35317 /* CategoryArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryArray.swift; sourceTree = "<group>"; };
 		DCD2AFFA81E55AE1DCA9D381 /* Pods-Russian food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Russian food.debug.xcconfig"; path = "Target Support Files/Pods-Russian food/Pods-Russian food.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,9 +107,10 @@
 		D2C02F58269B8C9100C35317 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D2C02F74269C5FB700C35317 /* TabBar */,
 				D27766A2269B43D900DF6E0D /* ViewController.swift */,
 				D2C02F5F269B8E8C00C35317 /* MainViewController.swift */,
-				D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */,
+				D2C02F6E269C49AB00C35317 /* CategoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -109,6 +118,7 @@
 		D2C02F59269B8CB600C35317 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D2C02F7B269C66C500C35317 /* CLCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,8 +126,18 @@
 		D2C02F5A269B8CBB00C35317 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D2C02F7E269C681A00C35317 /* CatrgoryList.swift */,
+				D2C02F81269C759E00C35317 /* CategoryArray.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D2C02F74269C5FB700C35317 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		F53E6403428C6EACF326E823 /* Pods */ = {
@@ -247,6 +267,10 @@
 				D27766A3269B43D900DF6E0D /* ViewController.swift in Sources */,
 				D277669F269B43D900DF6E0D /* AppDelegate.swift in Sources */,
 				D27766A1269B43D900DF6E0D /* SceneDelegate.swift in Sources */,
+				D2C02F7F269C681A00C35317 /* CatrgoryList.swift in Sources */,
+				D2C02F7C269C66C500C35317 /* CLCollectionViewCell.swift in Sources */,
+				D2C02F6F269C49AB00C35317 /* CategoryViewController.swift in Sources */,
+				D2C02F82269C759E00C35317 /* CategoryArray.swift in Sources */,
 				D2C02F60269B8E8C00C35317 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
