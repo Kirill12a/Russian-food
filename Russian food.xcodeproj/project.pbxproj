@@ -15,6 +15,7 @@
 		D27766A8269B43E200DF6E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27766A7269B43E200DF6E0D /* Assets.xcassets */; };
 		D27766AB269B43E200DF6E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27766A9269B43E200DF6E0D /* LaunchScreen.storyboard */; };
 		D2C02F60269B8E8C00C35317 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F5F269B8E8C00C35317 /* MainViewController.swift */; };
+		D2C02F6C269C3C6800C35317 /* TaBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D27766AA269B43E200DF6E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D27766AC269B43E200DF6E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C02F5F269B8E8C00C35317 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaBarViewController.swift; sourceTree = "<group>"; };
 		DCD2AFFA81E55AE1DCA9D381 /* Pods-Russian food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Russian food.debug.xcconfig"; path = "Target Support Files/Pods-Russian food/Pods-Russian food.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 			children = (
 				D27766A2269B43D900DF6E0D /* ViewController.swift */,
 				D2C02F5F269B8E8C00C35317 /* MainViewController.swift */,
+				D2C02F6B269C3C6800C35317 /* TaBarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C02F6C269C3C6800C35317 /* TaBarViewController.swift in Sources */,
 				D27766A3269B43D900DF6E0D /* ViewController.swift in Sources */,
 				D277669F269B43D900DF6E0D /* AppDelegate.swift in Sources */,
 				D27766A1269B43D900DF6E0D /* SceneDelegate.swift in Sources */,

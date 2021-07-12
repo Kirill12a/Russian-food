@@ -57,31 +57,81 @@
         <!--Main View Controller-->
         <scene sceneID="Mcf-gd-IEM">
             <objects>
-                <viewController storyboardIdentifier="MainAppViewController" id="SSk-eH-Q6N" customClass="MainViewController" customModule="Russian_food" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SSk-eH-Q6N" customClass="MainViewController" customModule="Russian_food" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZHc-jd-hNT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdf-Xd-pSx">
-                                <rect key="frame" x="186" y="289" width="77" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5Of-Qd-OxJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="PkW-5H-ZmW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rq5-QM-dph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="799" y="57"/>
+            <point key="canvasLocation" x="1025" y="794"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5c8-li-PNK">
+            <objects>
+                <viewController id="xq5-jz-g91" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsV-mR-fF6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sEC-Zc-flp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="like" id="FJk-4S-lAT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pqm-FW-p2S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1765" y="794"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ewl-wF-G9P">
+            <objects>
+                <viewController id="sdR-vC-4gT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WAD-tt-z1G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1dq-0Q-yjm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="category" id="6l6-XB-yme"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q0B-ii-3Wa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="794"/>
+        </scene>
+        <!--Ta Bar View Controller-->
+        <scene sceneID="YrG-b2-xeW">
+            <objects>
+                <tabBarController storyboardIdentifier="MainAppViewController" automaticallyAdjustsScrollViewInsets="NO" id="vZf-qF-nYG" customClass="TaBarViewController" customModule="Russian_food" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aDv-ra-Q0w">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="tabBar" destination="aDv-ra-Q0w" id="cjf-4w-vNw"/>
+                        <segue destination="sdR-vC-4gT" kind="relationship" relationship="viewControllers" id="0Xx-Uc-gDW"/>
+                        <segue destination="SSk-eH-Q6N" kind="relationship" relationship="viewControllers" id="SBF-CM-b13"/>
+                        <segue destination="xq5-jz-g91" kind="relationship" relationship="viewControllers" id="XWs-1H-6Bt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yAK-Eb-bcN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024.6376811594205" y="56.919642857142854"/>
         </scene>
     </scenes>
     <resources>
+        <image name="category" width="32" height="32"/>
+        <image name="home" width="32" height="32"/>
+        <image name="like" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
