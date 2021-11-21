@@ -1,9 +1,4 @@
-//
-//  TaBarViewController.swift
-//  Russian food
-//
-//  Created by Kirill Drozdov on 12.07.2021.
-//
+
 
 import UIKit
 

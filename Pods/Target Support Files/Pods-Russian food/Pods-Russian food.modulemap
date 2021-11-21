@@ -1,0 +1,6 @@
+framework module Pods_Russian_food {
+  umbrella header "Pods-Russian food-umbrella.h"
+
+  export *
+  module * { export * }
+}
